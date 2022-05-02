@@ -1,0 +1,307 @@
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("floorSplash.jpg");
+  background-size: contain;
+  background-size: cover;
+}
+
+
+
+.header{
+    //background-color:#1F2937;
+    //padding-bottom: 50px;
+    
+    
+}
+
+.top{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px;
+    background-color: #E5E7EB;
+    
+    //background-image: url("floorSplash.jpg")
+    
+}
+
+
+.header_logo{
+   display:flex;
+   align-items: center;
+   font-size: 36px;
+   color: black;
+   padding-left: 200px; 
+   
+}
+
+.top_contact{
+   display:flex;
+   flex-direction: column;
+   padding-left: 80px;
+
+}
+.top_contact_1,.top_contact_2{
+font-size: 24px;
+color: lightskyblue;
+padding: right 50px;
+
+}
+
+.linkBanner{
+    background-color: #3882F6;
+
+}
+
+
+
+
+.awesome {
+   font-size: 48px;
+   font-weight: extra-bold;
+   color: #f9faf8; 
+   margin-bottom: 20px;
+   
+}
+
+.header_text{
+   font-size: 18px;
+   color: #E5E7EB;
+   margin-bottom: 30px;
+   font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  a:hover {
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+    font-size: 20px;
+  }
+
+
+.header_links{
+    display:flex;
+    justify-content: space-evenly;
+    gap:20px;
+    padding-right: 150px;
+    background-color: #5977a6;
+    padding: 15px;
+    
+}
+
+.button{
+    display:inline-block;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 20px;
+    border-radius: 5px
+   
+}
+
+.button_div{
+    padding-left:20px;
+}
+
+.container_top{
+   display:flex;
+   margin-top: 50px;
+   margin-left: 100px;
+   margin-right: 100px;
+   gap:50px;
+   padding: 20px;
+  
+   
+}
+
+.secondRow{
+    margin-bottom: 50px;
+    //background-color: #3882F6;
+    //opacity: 0.8;
+    
+}
+
+.image{
+    align-items: center;
+}
+
+/*Start of Tier Two*/
+
+
+.tier-two{
+    //background-color: white;
+    padding-bottom: 50px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    //margin-top: 30px;
+    margin-bottom: 30px;
+    font-size:35px;
+    color:black;
+    font-weight: bold;
+}
+
+.small-box{
+     
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(87, 145, 195);
+    border-radius: 10px
+  }
+
+.boxes-main{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    
+}  
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+
+.text{
+    text-align: center;
+    width: 106px;
+    font-size: 12px;
+    
+}
+
+/*Start of Tier Three*/
+
+.tier-three{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+  }
+
+.quote-text{
+    width: 575px;
+    font-weight:lighter;
+    font-size: 24px;
+    font-style:italic;
+    color:#1F2937
+   
+}
+
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 375px;
+   
+}
+
+.thor{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*Start of Tier Four*/
+
+.tier-four{
+    display:flex;
+    justify-content: center;
+}
+
+
+.lower-banner{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#3882F6;
+    width: 700px;
+    height: 75px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.call{
+    color:#E5E7EB;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sign-text{
+    font-size: 14px;
+    color:#E5E7EB;
+}
+
+.sign-up-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#E5E7EB;
+    font-size: 14px;
+    width: 75px;
+    height: 20px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px
+      
+}
+.tier-four{
+    background-color: #E5E7EB;
+    opacity: 0.8;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .containerField {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
